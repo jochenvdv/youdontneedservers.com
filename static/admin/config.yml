@@ -15,13 +15,15 @@ collections:
           - {label: Title, name: title, widget: string}
           - {label: Description, name: description, widget: markdown}
           - {label: Body, name: body, widget: markdown}
+          - {label: Menu, name: menu, widget: hidden, default: {main: {weight: 10}}}
       - label: "About this site"
         name: "about"
-        file: content/about/index.md
+        file: content/about/_index.md
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Description, name: description, widget: markdown}
           - {label: Body, name: body, widget: markdown}
+          - {label: Menu, name: menu, widget: hidden, default: {footer: {weight: 10}}}
   - name: glossary
     label: Glossary
     folder: content/glossary
