@@ -16,13 +16,16 @@ This content on this website and the source code on Github is licensed under the
 
 In the making of this site the following dependencies were invaluable:
 
-* Hugo, static site generator
-* Netlify CMS, headless CMS,
-* Kube, theme for Hugo
+* [Hugo](https://github.com/gohugoio/hugo), static site generator
+* [Netlify CMS](https://github.com/netlify/netlify-cms), headless CMS,
+* [Kube](https://github.com/jeblister/kube), theme for Hugo
 
 Additionally, these sources were used as inspiration and reference for the content on this site:
 
 * <https://martinfowler.com/articles/serverless.html>
 * <https://pivotal.io/cloud-native>
 * <https://csrc.nist.gov/publications/detail/sp/800-145/final>
-* <https://12factor.net/>
+* <https://12factor.net>
+* <https://jamstack.org>
+* <https://headlesscms.org>
+* <https://www.staticgen.com>
