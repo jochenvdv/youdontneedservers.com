@@ -1,0 +1,5 @@
+baseURL = "https://youdontneedservers.com/"
+languageCode = "en-us"
+title = "You don't need servers"
+theme = "kube"
+menus = ["main", "footer"]

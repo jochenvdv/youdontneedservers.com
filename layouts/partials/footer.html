@@ -1,0 +1,10 @@
+  <footer id="footer">
+    <nav>
+      <ul>
+        <li><span>{{ .Site.Title }}</span></li>
+        {{ range .Site.Menus.footer }}
+        <li><a href="{{ .URL  }}">{{ .Name }}</a></li>
+        {{ end }}
+      </ul>
+    </nav>
+  </footer>

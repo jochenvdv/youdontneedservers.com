@@ -1,0 +1,41 @@
+{{ define "title"}} {{ .Site.Title}} {{end}}
+{{ define "header"}} {{ partial "header" .}} {{end}}
+{{ define "main"}}
+
+<div id="main">
+  <div id="hero">
+    <h1>{{.Title}}</h1>
+    <p>{{.Description}}</p>
+  </div>
+  <div id="action-buttons">
+    <a class="button primary big" href="{{ .Site.BaseURL }}paradigm">Learn more</a> <a class="button outline big" href="{{ .Site.BaseURL }}technology">Explore the technology</a>
+    <p>Find out what Cloud Native &amp; Serverless are, why they can help your business and how you can go about using them to your advantage</p>
+  </div>
+  <div id="kube-features">
+    <div class="row gutters">
+      <div class="col col-4 item">
+        <i class="material-icons md-48">timeline</i>
+        <h3>Reduce time to market</h3>
+        <p>By utilizing high-level managed services and infrastructure abstractions, you avoid wasting time on developing non-functional requirements</p>
+      </div>
+      <div class="col col-4 item">
+        <i class="material-icons md-48">money_off</i>
+        <h3>Minimize operational expenses</h3>
+        <p>Stop paying for idle servers and pay only for what you actually use by leveraging Cloud Computing's pricing models</p>
+      </div>
+      <div class="col col-4 item">
+        <i class="material-icons md-48">settings_backup_restore</i>
+        <h3>Improve resilience</h3>
+        <p>Cloud platforms allow you to easily build and automate resilience and scalability into every layer of your software architecture</p>
+      </div>
+    </div>
+    <div class="row gutters">
+      <blockquote>
+        <p>If someone asks me what cloud computing is, I try not to get bogged down with definitions. I tell them that, simply put, cloud computing is a better way to run your business.</p>
+        <small>&mdash; <strong>Marc Beniof</strong>, Founder &amp; CEO of Salesforce</small>
+      </blockquote>
+    </div>
+  </div>
+</div>
+{{ end }}
+{{ define "footer"}} {{ partial "footer" .}} {{end}}
