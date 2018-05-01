@@ -43,6 +43,9 @@ collections:
       - {label: Title, name: title, widget: string}
       - {label: Definition, name: definition, widget: markdown}
       - {label: IsEntry, name: entry, widget: hidden, default: true}
+      - {label: externalURL, name: url, widget: string}
+      - {label: Type, name: type, widget: hidden, default: technology}
+      - {label: Layout, name: layout, widget: hidden, default: single}
   - name: "technologies-baas"
     label: "Technologies: BaaS"
     folder: content/technology/baas
@@ -52,6 +55,9 @@ collections:
       - {label: Title, name: title, widget: string}
       - {label: Definition, name: definition, widget: markdown}
       - {label: IsEntry, name: entry, widget: hidden, default: true}
+      - {label: externalURL, name: url, widget: string}
+      - {label: Type, name: type, widget: hidden, default: technology}
+      - {label: Layout, name: layout, widget: hidden, default: single}
   - name: "technologies-iaas"
     label: "Technologies: IaaS"
     folder: content/technology/iaas
@@ -61,6 +67,9 @@ collections:
       - {label: Title, name: title, widget: string}
       - {label: Definition, name: definition, widget: markdown}
       - {label: IsEntry, name: entry, widget: hidden, default: true}
+      - {label: externalURL, name: url, widget: string}
+      - {label: Type, name: type, widget: hidden, default: technology}
+      - {label: Layout, name: layout, widget: hidden, default: single}
   - name: "technologies-faas"
     label: "Technologies: FaaS"
     folder: content/technology/faas
@@ -70,6 +79,9 @@ collections:
       - {label: Title, name: title, widget: string}
       - {label: Definition, name: definition, widget: markdown}
       - {label: IsEntry, name: entry, widget: hidden, default: true}
+      - {label: externalURL, name: url, widget: string}
+      - {label: Type, name: type, widget: hidden, default: technology}
+      - {label: Layout, name: layout, widget: hidden, default: single}
   - name: "technologies-paas"
     label: "Technologies: PaaS"
     folder: content/technology/paas
@@ -79,6 +91,9 @@ collections:
       - {label: Title, name: title, widget: string}
       - {label: Definition, name: definition, widget: markdown}
       - {label: IsEntry, name: entry, widget: hidden, default: true}
+      - {label: externalURL, name: url, widget: string}
+      - {label: Type, name: type, widget: hidden, default: technology}
+      - {label: Layout, name: layout, widget: hidden, default: single}
   - name: "technologies-serverlessframeworks"
     label: "Technologies: Serverless frameworks"
     folder: content/technology/serverlessframeworks
@@ -88,6 +103,9 @@ collections:
       - {label: Title, name: title, widget: string}
       - {label: Definition, name: definition, widget: markdown}
       - {label: IsEntry, name: entry, widget: hidden, default: true}
+      - {label: externalURL, name: url, widget: string}
+      - {label: Type, name: type, widget: hidden, default: technology}
+      - {label: Layout, name: layout, widget: hidden, default: single}
   - name: "technologies-staticsitegenerators"
     label: "Technologies: Static site generators & CMSs"
     folder: content/technology/staticsitegenerators
@@ -97,6 +115,9 @@ collections:
       - {label: Title, name: title, widget: string}
       - {label: Definition, name: definition, widget: markdown}
       - {label: IsEntry, name: entry, widget: hidden, default: true}
+      - {label: externalURL, name: url, widget: string}
+      - {label: Type, name: type, widget: hidden, default: technology}
+      - {label: Layout, name: layout, widget: hidden, default: single}
   - name: "technologies-hostingcdn"
     label: "Technologies: Static file hosting & CDNs"
     folder: content/technology/hostingcdn
@@ -106,6 +127,9 @@ collections:
       - {label: Title, name: title, widget: string}
       - {label: Definition, name: definition, widget: markdown}
       - {label: IsEntry, name: entry, widget: hidden, default: true}
+      - {label: externalURL, name: url, widget: string}
+      - {label: Type, name: type, widget: hidden, default: technology}
+      - {label: Layout, name: layout, widget: hidden, default: single}
   - name: "technologies-frontendframeworks"
     label: "Technologies: Front-end application frameworks"
     folder: content/technology/frontendframeworks
@@ -115,3 +139,6 @@ collections:
       - {label: Title, name: title, widget: string}
       - {label: Definition, name: definition, widget: markdown}
       - {label: IsEntry, name: entry, widget: hidden, default: true}
+      - {label: externalURL, name: url, widget: string}
+      - {label: Type, name: type, widget: hidden, default: technology}
+      - {label: Layout, name: layout, widget: hidden, default: single}
