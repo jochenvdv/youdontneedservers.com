@@ -9,7 +9,9 @@ collections:
     label: Glossary
     folder: content/glossary
     create: true
+    filter: {field: entry, value: true}
     fields:
       - {label: Title, name: title, widget: string}
       - {label: Definition, name: definition, widget: markdown}
       - {label: Identifier, name: slug, widget: string}
+      - {label: IsEntry, name: entry, widget: hidden, default: true}
