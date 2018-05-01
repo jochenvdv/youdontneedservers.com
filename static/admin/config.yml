@@ -5,6 +5,23 @@ publish_mode: editorial_workflow
 media_folder: static/images/uploads
 public_folder: /images/uploads
 collections:
+  - name: pages
+    label: Pages
+    files:
+      - label: "The Paradigm"
+        name: "paradigm"
+        file: content/paradigm/_index.md
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Description, name: description, widget: markdown}
+          - {label: Body, name: body, widget: markdown}
+      - label: "About this site"
+        name: "about"
+        file: content/about/index.md
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Description, name: description, widget: markdown}
+          - {label: Body, name: body, widget: markdown}
   - name: glossary
     label: Glossary
     folder: content/glossary
@@ -14,4 +31,85 @@ collections:
       - {label: Title, name: title, widget: string}
       - {label: Definition, name: definition, widget: markdown}
       - {label: Identifier, name: slug, widget: string}
+      - {label: IsEntry, name: entry, widget: hidden, default: true}
+  - name: "technologies-saas"
+    label: "Technologies: SaaS"
+    folder: content/technology/saas
+    create: true
+    filter: {field: entry, value: true}
+    fields:
+      - {label: Title, name: title, widget: string}
+      - {label: Definition, name: definition, widget: markdown}
+      - {label: IsEntry, name: entry, widget: hidden, default: true}
+  - name: "technologies-baas"
+    label: "Technologies: BaaS"
+    folder: content/technology/baas
+    create: true
+    filter: {field: entry, value: true}
+    fields:
+      - {label: Title, name: title, widget: string}
+      - {label: Definition, name: definition, widget: markdown}
+      - {label: IsEntry, name: entry, widget: hidden, default: true}
+  - name: "technologies-iaas"
+    label: "Technologies: IaaS"
+    folder: content/technology/iaas
+    create: true
+    filter: {field: entry, value: true}
+    fields:
+      - {label: Title, name: title, widget: string}
+      - {label: Definition, name: definition, widget: markdown}
+      - {label: IsEntry, name: entry, widget: hidden, default: true}
+  - name: "technologies-faas"
+    label: "Technologies: FaaS"
+    folder: content/technology/faas
+    create: true
+    filter: {field: entry, value: true}
+    fields:
+      - {label: Title, name: title, widget: string}
+      - {label: Definition, name: definition, widget: markdown}
+      - {label: IsEntry, name: entry, widget: hidden, default: true}
+  - name: "technologies-paas"
+    label: "Technologies: PaaS"
+    folder: content/technology/paas
+    create: true
+    filter: {field: entry, value: true}
+    fields:
+      - {label: Title, name: title, widget: string}
+      - {label: Definition, name: definition, widget: markdown}
+      - {label: IsEntry, name: entry, widget: hidden, default: true}
+  - name: "technologies-serverlessframeworks"
+    label: "Technologies: Serverless frameworks"
+    folder: content/technology/serverlessframeworks
+    create: true
+    filter: {field: entry, value: true}
+    fields:
+      - {label: Title, name: title, widget: string}
+      - {label: Definition, name: definition, widget: markdown}
+      - {label: IsEntry, name: entry, widget: hidden, default: true}
+  - name: "technologies-staticsitegenerators"
+    label: "Technologies: Static site generators & CMSs"
+    folder: content/technology/staticsitegenerators
+    create: true
+    filter: {field: entry, value: true}
+    fields:
+      - {label: Title, name: title, widget: string}
+      - {label: Definition, name: definition, widget: markdown}
+      - {label: IsEntry, name: entry, widget: hidden, default: true}
+  - name: "technologies-hostingcdn"
+    label: "Technologies: Static file hosting & CDNs"
+    folder: content/technology/hostingcdn
+    create: true
+    filter: {field: entry, value: true}
+    fields:
+      - {label: Title, name: title, widget: string}
+      - {label: Definition, name: definition, widget: markdown}
+      - {label: IsEntry, name: entry, widget: hidden, default: true}
+  - name: "technologies-frontendframeworks"
+    label: "Technologies: Front-end application frameworks"
+    folder: content/technology/frontendframeworks
+    create: true
+    filter: {field: entry, value: true}
+    fields:
+      - {label: Title, name: title, widget: string}
+      - {label: Definition, name: definition, widget: markdown}
       - {label: IsEntry, name: entry, widget: hidden, default: true}
