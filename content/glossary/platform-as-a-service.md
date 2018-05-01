@@ -1,5 +1,5 @@
 ---
-title: Platform as a Service
+title: Platform as a Service (PaaS)
 definition: >-
   High level development platforms that provide an integrated environment for
   deploying your applications to, removing the need to configure operating
