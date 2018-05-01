@@ -6,6 +6,23 @@ This website was made as part of a school project to educate other people about 
 
 ### About the author
 
-Jochen Van de Velde 
+Jochen Van de Velde is a software engineer working at Cloudway as a Cloud Consultant. During the past year, he has been working on multiple projects using Amazon Web Services (AWS) using the Serverless Framework and aspires to further specialize in Cloud Native application development and architecture. 
 
 ### License & copyright
+
+Copyright 2018 Jochen Van de Velde
+
+This content on this website and the source code on Github is licensed under the open source MIT license. The rights to all other content and code go to their original publishers:
+
+In the making of this site the following dependencies were invaluable:
+
+* Hugo, static site generator
+* Netlify CMS, headless CMS,
+* Kube, theme for Hugo
+
+Additionally, these sources were used as inspiration and reference for the content on this site:
+
+* <https://martinfowler.com/articles/serverless.html>
+* <https://pivotal.io/cloud-native>
+* <https://csrc.nist.gov/publications/detail/sp/800-145/final>
+* <https://12factor.net/>
