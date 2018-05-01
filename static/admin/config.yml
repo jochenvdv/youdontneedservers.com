@@ -43,7 +43,7 @@ collections:
       - {label: Title, name: title, widget: string}
       - {label: Description, name: description, widget: markdown}
       - {label: IsEntry, name: entry, widget: hidden, default: true}
-      - {label: externalURL, name: url, widget: string}
+      - {label: externalURL, name: externalURL, widget: string}
       - {label: Type, name: type, widget: hidden, default: technology}
       - {label: Layout, name: layout, widget: hidden, default: single}
   - name: "technologies-baas"
@@ -55,7 +55,7 @@ collections:
       - {label: Title, name: title, widget: string}
       - {label: Description, name: description, widget: markdown}
       - {label: IsEntry, name: entry, widget: hidden, default: true}
-      - {label: externalURL, name: url, widget: string}
+      - {label: externalURL, name: externalURL, widget: string}
       - {label: Type, name: type, widget: hidden, default: technology}
       - {label: Layout, name: layout, widget: hidden, default: single}
   - name: "technologies-iaas"
@@ -67,7 +67,7 @@ collections:
       - {label: Title, name: title, widget: string}
       - {label: Description, name: description, widget: markdown}
       - {label: IsEntry, name: entry, widget: hidden, default: true}
-      - {label: externalURL, name: url, widget: string}
+      - {label: externalURL, name: externalURL, widget: string}
       - {label: Type, name: type, widget: hidden, default: technology}
       - {label: Layout, name: layout, widget: hidden, default: single}
   - name: "technologies-faas"
@@ -79,7 +79,7 @@ collections:
       - {label: Title, name: title, widget: string}
       - {label: Description, name: description, widget: markdown}
       - {label: IsEntry, name: entry, widget: hidden, default: true}
-      - {label: externalURL, name: url, widget: string}
+      - {label: externalURL, name: externalURL, widget: string}
       - {label: Type, name: type, widget: hidden, default: technology}
       - {label: Layout, name: layout, widget: hidden, default: single}
   - name: "technologies-paas"
@@ -91,7 +91,7 @@ collections:
       - {label: Title, name: title, widget: string}
       - {label: Description, name: description, widget: markdown}
       - {label: IsEntry, name: entry, widget: hidden, default: true}
-      - {label: externalURL, name: url, widget: string}
+      - {label: externalURL, name: externalURL, widget: string}
       - {label: Type, name: type, widget: hidden, default: technology}
       - {label: Layout, name: layout, widget: hidden, default: single}
   - name: "technologies-serverlessframeworks"
@@ -103,7 +103,7 @@ collections:
       - {label: Title, name: title, widget: string}
       - {label: Description, name: description, widget: markdown}
       - {label: IsEntry, name: entry, widget: hidden, default: true}
-      - {label: externalURL, name: url, widget: string}
+      - {label: externalURL, name: externalURL, widget: string}
       - {label: Type, name: type, widget: hidden, default: technology}
       - {label: Layout, name: layout, widget: hidden, default: single}
   - name: "technologies-staticsitegenerators"
@@ -115,7 +115,7 @@ collections:
       - {label: Title, name: title, widget: string}
       - {label: Description, name: description, widget: markdown}
       - {label: IsEntry, name: entry, widget: hidden, default: true}
-      - {label: externalURL, name: url, widget: string}
+      - {label: externalURL, name: externalURL, widget: string}
       - {label: Type, name: type, widget: hidden, default: technology}
       - {label: Layout, name: layout, widget: hidden, default: single}
   - name: "technologies-hostingcdn"
@@ -127,7 +127,7 @@ collections:
       - {label: Title, name: title, widget: string}
       - {label: Description, name: description, widget: markdown}
       - {label: IsEntry, name: entry, widget: hidden, default: true}
-      - {label: externalURL, name: url, widget: string}
+      - {label: externalURL, name: externalURL, widget: string}
       - {label: Type, name: type, widget: hidden, default: technology}
       - {label: Layout, name: layout, widget: hidden, default: single}
   - name: "technologies-frontendframeworks"
@@ -139,6 +139,6 @@ collections:
       - {label: Title, name: title, widget: string}
       - {label: Description, name: description, widget: markdown}
       - {label: IsEntry, name: entry, widget: hidden, default: true}
-      - {label: externalURL, name: url, widget: string}
+      - {label: externalURL, name: externalURL, widget: string}
       - {label: Type, name: type, widget: hidden, default: technology}
       - {label: Layout, name: layout, widget: hidden, default: single}
